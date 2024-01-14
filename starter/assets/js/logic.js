@@ -34,6 +34,26 @@ function startQuiz() {
 }
 
 // Function to display the next question
+function showNextQuestion() {
+	// Fetch the current question
+	var currentQuestion = questions[currentQuestionIndex]
+
+	// Display questions annd choices
+	document.getElementById('question-title').textContent =
+		currentQuestion.question
+	var choicesContainer = document.getElementById('choices')
+	choicesContainer.innerHTML = ''
+	currentQuestion.options.forEach(function (option, index) {
+		var button = document.createElement('button')
+		button.textContent = option
+		button.addEventListener('click', function () {
+			// Check the user's answer
+			checkAnswer(option, currentQuestion.correctAnswer)
+		})
+		choicesContainer.appendChild(button)
+	})
+}
+
 // Function to check the user's answer
 // Function to end the game
 // Function to save the highscore
