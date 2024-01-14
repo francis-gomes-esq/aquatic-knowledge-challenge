@@ -17,7 +17,22 @@ var currentQuestionIndex = 0
 var userScore = 0
 
 // Function to start the quiz
-// End game if time runs out or all questions are answered
+function startQuiz() {
+	// Timer logic
+	timer = setInterval(function () {
+		timeLeft--
+		timerElement.textContent = timeLeft
+
+		// End game if time runs out or all questions are answered
+		if (timeLeft <= 0 || currentQuestionIndex === questions.length) {
+			endGame()
+		}
+	}, 1000)
+
+	// Display the first question
+	showNextQuestion()
+}
+
 // Function to display the next question
 // Function to check the user's answer
 // Function to end the game
