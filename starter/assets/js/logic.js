@@ -52,6 +52,10 @@ function showNextQuestion() {
 		})
 		choicesContainer.appendChild(button)
 	})
+
+	// Show the questions container and hide the start button
+	questionsContainer.classList.remove('hide')
+	startButton.classList.add('hide')
 }
 
 // Function to check the user's answer
