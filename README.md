@@ -38,6 +38,13 @@ N/A
 
 You can view the website via this link: [Add link]
 
+## Animated gifs
+
+-   ![aquatic knowledge challenge](./starter/assets/gifs/akc-01.gif)
+-   ![aquatic knowledge challenge](./starter/assets/gifs/akc-02.gif)
+
+## Screenshots
+
 -   ![alt text](assets/images/example.png)
 
 ## Technologies Used
@@ -48,12 +55,16 @@ You can view the website via this link: [Add link]
 
 ## Credits
 
--   Tutoring session
--   Discussion with a TA during office hours
+-   Handled some debugging issues during tutoring session with David, Elutilo
+-   Discussion with colleagues during breakout room sessions
 
 ### List of third-party assets.
 
 -   Starter Pack
+-   Stackoverflow: https://bit.ly/stackoverflow-functions
+-   TinyMCE Blog: https://www.tiny.cloud/blog/javascript-localstorage/
+-   w3schools: https://www.w3schools.com/jsref/prop_win_localstorage.asp
+-   Medium: https://bit.ly/medium-local-storage
 
 ## License
 
