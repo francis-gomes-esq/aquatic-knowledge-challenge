@@ -59,6 +59,27 @@ function showNextQuestion() {
 }
 
 // Function to check the user's answer
+function checkAnswer(selectedAnswer, correctAnswer) {
+	// Update score and play sound based on the correctness of the abswer
+	if (selectedAnswer === correctAnswer) {
+		userScore += 10
+		correctSound.play()
+	} else {
+		timeLeft - +10
+		incorrectSound.play()
+	}
+
+	// Move to the next question
+	currentQuestionIndex++
+
+	// Check if all questions are answered
+	if (currentQuestionIndex === questions.length) {
+		endGame()
+	} else {
+		//Display the net question
+		showNextQuestion()
+	}
+}
 // Function to end the game
 // Function to save the highscore
 // Event listener for starting the quiz
