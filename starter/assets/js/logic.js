@@ -12,7 +12,7 @@ var incorrectSound = new Audio('./assets/sfx/incorrect.wav')
 
 // Timer and scoring variables
 var timer
-var timeLeft = 60 // Set your desired initial time
+var timeLeft = 80 // Set your desired initial time
 var currentQuestionIndex = 0
 var userScore = 0
 
