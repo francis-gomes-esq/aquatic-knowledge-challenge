@@ -119,3 +119,4 @@ function saveHighscore() {
 	}
 }
 // Event listener for starting the quiz
+startButton.addEventListener('click', startQuiz)
