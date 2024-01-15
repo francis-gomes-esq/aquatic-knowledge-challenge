@@ -45,7 +45,15 @@ You can view the website via this link: [Add link]
 
 ## Screenshots
 
--   ![alt text](assets/images/example.png)
+-   ![alt text](./starter/assets/images/questions_00.png)
+-   ![alt text](./starter/assets/images/questions_01.pngg)
+-   ![alt text](./starter/assets/images/questions_02.png)
+-   ![alt text](./starter/assets/images/logic_00.png)
+-   ![alt text](./starter/assets/images/logic_01.png)
+-   ![alt text](./starter/assets/images/logic_02.png)
+-   ![alt text](./starter/assets/images/logic_03.png)
+-   ![alt text](./starter/assets/images/logic_04.png)
+-   ![alt text](./starter/assets/images/scores.png)
 
 ## Technologies Used
 
