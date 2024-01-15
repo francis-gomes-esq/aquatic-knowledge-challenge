@@ -15,4 +15,13 @@ function initHighscores() {
 document.addEventListener('DOMContentLoaded', function () {
 	// Call the function when the highscore page loads
 	initHighscores()
+
+	// Event Listener for clearing highscores
+	document.getElementById('clear').addEventListener('click', function () {
+		// Clear highscores in localStorage
+		localStorage.removeItem('highscores')
+
+		// Reload the page to reflect the changes
+		location.reload()
+	})
 })
