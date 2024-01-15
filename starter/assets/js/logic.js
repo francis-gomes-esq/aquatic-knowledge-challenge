@@ -12,7 +12,7 @@ var incorrectSound = new Audio('./assets/sfx/incorrect.wav')
 
 // Timer and scoring variables
 var timer
-var timeLeft = 80 // Set your desired initial time
+var timeLeft = 60 // Set your desired initial time
 var currentQuestionIndex = 0
 var userScore = 0
 
@@ -38,7 +38,7 @@ function showNextQuestion() {
 	// Fetch the current question
 	var currentQuestion = questions[currentQuestionIndex]
 
-	// Display questions annd choices
+	// Display questions and choices
 	document.getElementById('question-title').textContent =
 		currentQuestion.question
 	var choicesContainer = document.getElementById('choices')
@@ -65,7 +65,7 @@ function checkAnswer(selectedAnswer, correctAnswer) {
 		userScore += 10
 		correctSound.play()
 	} else {
-		timeLeft - +10
+		timeLeft -= 10
 		incorrectSound.play()
 	}
 
@@ -80,6 +80,7 @@ function checkAnswer(selectedAnswer, correctAnswer) {
 		showNextQuestion()
 	}
 }
+
 // Function to end the game
 function endGame() {
 	// Stop the timer
@@ -118,5 +119,6 @@ function saveHighscore() {
 		window.location.href = 'highscores.html'
 	}
 }
+
 // Event listener for starting the quiz
 startButton.addEventListener('click', startQuiz)

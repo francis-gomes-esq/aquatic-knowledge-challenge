@@ -1,14 +1,15 @@
 // Function to initialize and display highscores
 function initHighscores() {
 	var highscores = JSON.parse(localStorage.getItem('highscores')) || []
-	var highscoreList = document.getElementById('highscores ')
+	var highscoresList = document.getElementById('highscores')
 
-	highscoreList.innerHTML = ''
+	highscoresList.innerHTML = ''
 
-	highscores.forEach(function () {
+	// Display each highscore as a list item
+	highscores.forEach(function (score) {
 		var li = document.createElement('li')
 		li.textContent = score.initials + ' - ' + score.score
-		highscoreList.appendChild(li)
+		highscoresList.appendChild(li)
 	})
 }
 
