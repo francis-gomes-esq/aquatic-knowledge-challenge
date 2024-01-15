@@ -11,3 +11,8 @@ function initHighscores() {
 		highscoreList.appendChild(li)
 	})
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+	// Call the function when the highscore page loads
+	initHighscores()
+})
