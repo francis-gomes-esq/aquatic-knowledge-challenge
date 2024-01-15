@@ -36,7 +36,7 @@ N/A
 2. Answer questions and earn points with instant feedback.
 3. Save your initials and score to compete on the leaderboard.
 
-You can view the website via this link: [Add link]
+You can view the website via this link: https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/
 
 ## Animated gifs
 
