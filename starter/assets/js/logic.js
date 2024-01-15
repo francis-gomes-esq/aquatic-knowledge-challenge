@@ -81,5 +81,19 @@ function checkAnswer(selectedAnswer, correctAnswer) {
 	}
 }
 // Function to end the game
+function endGame() {
+	// Stop the timer
+	clearInterval(timer)
+
+	questionsContainer.classList.add('hide')
+	endScreen.classList.remove('hide')
+
+	// Display the final score
+	document.getElementById('final-score').textContent = userScore
+
+	// Event listener for saving high score
+	submitButton.addEventListener('click', saveHighscore)
+}
+
 // Function to save the highscore
 // Event listener for starting the quiz
