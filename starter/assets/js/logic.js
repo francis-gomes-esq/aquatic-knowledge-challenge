@@ -96,4 +96,26 @@ function endGame() {
 }
 
 // Function to save the highscore
+function saveHighscore() {
+	var initials = initialsInput.value.trim()
+
+	// Check if initials are provided
+	if (initials !== '') {
+		// Retrieve and update highscores
+		var highscores = JSON.parse(localStorage.getItem('highscores')) || []
+		var newScore = {initials: initials, score: userScore}
+		highscores.push(newScore)
+
+		// Sort highscores
+		highscores.sort(function (a, b) {
+			return b.score - a.score
+		})
+
+		// Save highscores to local storage
+		localStorage.setItem('highscores', JSON.stringify(highscores))
+
+		// Redirect to the highscores page
+		window.location.href = 'highscores.html'
+	}
+}
 // Event listener for starting the quiz
