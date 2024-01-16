@@ -32,11 +32,11 @@ N/A
 
 ### How to Play
 
-1. Click "Start Quiz" [Aquatic Knowledge Challenge][1] to begin the timed challenge.
+1. Click "Start Quiz" [aquatic knowledge challenge][1] to begin the timed challenge.
 2. Answer questions and earn points with instant feedback.
 3. Save your initials and score to compete on the leaderboard.
 
-View the website via this link: [Aquatic Knowledge Challenge][1]
+View the website via this link: [aquatic knowledge challenge][1]
 
 ## Animated gifs
 
