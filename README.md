@@ -32,11 +32,11 @@ N/A
 
 ### How to Play
 
-1. Click "Start Quiz" to begin the timed challenge.
+1. Click "Start Quiz" [Aquatic Knowledge Challenge][1] to begin the timed challenge.
 2. Answer questions and earn points with instant feedback.
 3. Save your initials and score to compete on the leaderboard.
 
-You can view the website via this link: https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/
+View the website via this link: [Aquatic Knowledge Challenge][1]
 
 ## Animated gifs
 
@@ -77,3 +77,5 @@ You can view the website via this link: https://francis-gomes-esq.github.io/aqua
 ## License
 
 -   Please refer to the repo
+
+[1]: (https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/)
