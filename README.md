@@ -32,9 +32,10 @@ N/A
 
 ### How to Play
 
-1. Click "Start Quiz" [aquatic knowledge challenge][1] to begin the timed challenge.
-2. Answer questions and earn points with instant feedback.
-3. Save your initials and score to compete on the leaderboard.
+1. Launch the the [index.html] on your local server
+2. Click "Start Quiz" to begin the timed challenge.
+3. Answer questions and earn points with instant feedback.
+4. Save your initials and score to compete on the leaderboard.
 
 View the website via this link: [aquatic knowledge challenge][1]
 
