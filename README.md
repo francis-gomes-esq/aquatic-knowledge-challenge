@@ -78,4 +78,4 @@ View the website via this link: [Aquatic Knowledge Challenge][1]
 
 -   Please refer to the repo
 
-[1]: (https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/)
+[1]: https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/
