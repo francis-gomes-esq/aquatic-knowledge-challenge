@@ -37,24 +37,24 @@ N/A
 3. Answer questions and earn points with instant feedback.
 4. Save your initials and score to compete on the leaderboard.
 
-View the website via this link: [aquatic knowledge challenge][1]
+View the website via this link: [aquatic knowledge challenge](https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/)
 
 ## Animated gifs
 
--   ![aquatic knowledge challenge](./starter/assets/gifs/akc-01.gif)
--   ![aquatic knowledge challenge](./starter/assets/gifs/akc-02.gif)
+-   ![aquatic knowledge challenge](./assets/images/akc-01.gif)
+-   ![aquatic knowledge challenge](./assets/images/akc-02.gif)
 
 ## Screenshots
 
--   ![alt text](./starter/assets/images/questions_00.png)
--   ![alt text](./starter/assets/images/questions_01.pngg)
--   ![alt text](./starter/assets/images/questions_02.png)
--   ![alt text](./starter/assets/images/logic_00.png)
--   ![alt text](./starter/assets/images/logic_01.png)
--   ![alt text](./starter/assets/images/logic_02.png)
--   ![alt text](./starter/assets/images/logic_03.png)
--   ![alt text](./starter/assets/images/logic_04.png)
--   ![alt text](./starter/assets/images/scores.png)
+-   ![alt text](./assets/images/questions_00.png)
+-   ![alt text](./assets/images/questions_01.png)
+-   ![alt text](./assets/images/questions_02.png)
+-   ![alt text](./assets/images/logic_00.png)
+-   ![alt text](./assets/images/logic_01.png)
+-   ![alt text](./assets/images/logic_02.png)
+-   ![alt text](./assets/images/logic_03.png)
+-   ![alt text](./assets/images/logic_04.png)
+-   ![alt text](./assets/images/scores.png)
 
 ## Technologies Used
 
@@ -71,12 +71,10 @@ View the website via this link: [aquatic knowledge challenge][1]
 
 -   Starter Pack
 -   Stackoverflow: https://bit.ly/stackoverflow-functions
--   TinyMCE Blog: https://www.tiny.cloud/blog/javascript-localstorage/
+-   TinyMCE Blog: https://www.tiny.cloud/blog/javascript-localstorage/=
 -   w3schools: https://www.w3schools.com/jsref/prop_win_localstorage.asp
 -   Medium: https://bit.ly/medium-local-storage
 
 ## License
 
 -   Please refer to the repo
-
-[1]: https://francis-gomes-esq.github.io/aquatic-knowledge-challenge/
